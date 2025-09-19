@@ -70,8 +70,34 @@ section h3 {
   color: #0066cc;
 }
 
+
 .activity-card p {
   margin-bottom: 8px;
+}
+
+/* Participants badges */
+.participants-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 4px;
+}
+
+.participant-badge {
+  background-color: #e3f2fd;
+  color: #1565c0;
+  border: 1px solid #90caf9;
+  border-radius: 12px;
+  padding: 3px 10px;
+  font-size: 0.95em;
+  margin-bottom: 2px;
+  display: inline-block;
+  transition: background 0.2s;
+}
+
+.participant-badge:hover {
+  background-color: #bbdefb;
+  color: #0d47a1;
 }
 
 .form-group {
